@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>500 Words Book Quiz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-wrapper">
+    <!-- Logo card ABOVE the quiz -->
+    <div class="logo-card">
+      <img
+        src="https://raw.githubusercontent.com/yazeedenglish/words-quiz/refs/heads/main/logo%20(8).png"
+        class="logo"
+        alt="YazeedEnglish Logo"
+      />
+    </div>
+
+    <!-- Quiz box -->
+    <div class="quiz-container">
+      <div id="quiz-screen">
+        <div class="quiz-header">
+          <div>
+            <h1 class="quiz-title">500 Words Book Quiz</h1>
+            <div class="quiz-progress" id="progress">Question 1 / 10</div>
+          </div>
+          <div class="quiz-meta">
+            <span class="timer" id="timer">⏱ 15s</span>
+            <span class="lives" id="lives">❤️❤️❤️</span>
+          </div>
+        </div>
+
+        <div class="score-chip">
+          Score: <span id="score">0</span>
+        </div>
+
+        <p class="question" id="question-text">Loading question...</p>
+        <p class="subtitle" id="question-subtitle"></p>
+
+        <ul class="options" id="options-list"></ul>
+
+        <div class="feedback" id="feedback"></div>
+        <div class="explanation" id="explanation"></div>
+
+        <div class="quiz-footer">
+          <button class="btn-ghost" id="restart-btn" type="button">Restart</button>
+          <button class="btn-primary" id="next-btn" type="button" disabled>Next</button>
+        </div>
+      </div>
+
+      <!-- Result Screen -->
+      <div id="result-screen" style="display:none;">
+        <div class="quiz-header">
+          <h1 class="quiz-title">Quiz Finished 🎉</h1>
+        </div>
+
+        <div class="result">
+          <div class="result-score" id="final-score"></div>
+          <div class="result-text" id="final-message"></div>
+        </div>
+
+        <div class="quiz-footer" style="justify-content: center; margin-top: 8px;">
+          <button class="btn-primary" id="play-again-btn" type="button">Play Again</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
