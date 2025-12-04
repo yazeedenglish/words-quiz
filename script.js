@@ -57,6 +57,41 @@ const questions = [
     explanation: ""
   },
   {
+    question: "ما معنى ملعب؟",
+    subtitle: "",
+    options: ["Hotel", "Stadium", "Tangerine", "Raisins"],
+    correctIndex: 1,
+    explanation: ""
+  },
+  {
+    question: "ما معنى خس؟",
+    subtitle: "",
+    options: ["Cucumber", "Lettuce", "Carrot", "Eggplant"],
+    correctIndex: 1,
+    explanation: ""
+  },
+  {
+    question: "ما معنى رمان؟",
+    subtitle: "",
+    options: ["Pear", "Fig", "Watermelon", "Pomegranate"],
+    correctIndex: 3,
+    explanation: ""
+  },
+  {
+    question: "ما معنى جوز الهند؟",
+    subtitle: "",
+    options: ["Almond", "Cashew", "Coconut", "Pistachio"],
+    correctIndex: 2,
+    explanation: ""
+  },
+  {
+    question: "ما معنى ضباب؟",
+    subtitle: "",
+    options: ["Fog", "Thunder", "Storm", "Wind"],
+    correctIndex: 0,
+    explanation: ""
+  },
+  {
     question: "ما معنى ملعقة؟",
     subtitle: "",
     options: ["Bowl", "Knife", "Fork", "Spoon"],
